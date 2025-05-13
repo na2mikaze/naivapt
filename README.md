@@ -1,4 +1,4 @@
-# 🛡️ NAIVAPT - Penetration Testing & Vulnerability Assessment Tool
+# 🛡️ NAIVAPT - Vulnerability Assessment & Penetration Testing Tool
 
 NAIVAPT adalah tool open-source yang dapat membantu melakukan **Reconnaissance**, **Scanning & Enumeration**, **Vulnerability Assessment**, dan **Exploitation (Penetration Testing)** secara otomatis dengan beberapa pilihan eksploitasi, serta menyimpan hasilnya dalam file untuk analisis lebih lanjut.
 
