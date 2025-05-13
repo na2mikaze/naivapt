@@ -17,11 +17,11 @@ echo -e "${reset}"
 echo -e "${yellow}Naivapt - Automated VAPT Framework for Kali Linux${reset}"
 echo
 echo -e "${red}⚠️  DISCLAIMER:${reset}"
-echo -e "${yellow}Naivapt dibuat untuk tujuan edukasi dan pengujian keamanan pada sistem yang dimiliki atau memiliki izin eksplisit.${reset}"
-echo -e "${yellow}Penggunaan alat ini terhadap sistem tanpa izin adalah ilegal dan melanggar hukum internasional dan nasional.${reset}"
-echo -e "${yellow}Pengguna bertanggung jawab penuh atas segala konsekuensi hukum dan etis dari penggunaan alat ini.${reset}"
-echo -e "${yellow}Kami sebagai pembuat tidak bertanggung jawab atas penyalahgunaan, kerusakan sistem, atau pelanggaran hukum apapun yang timbul dari penggunaan tools ini.${reset}"
-echo -e "${yellow}Gunakan dengan bijak, etis, dan hanya untuk sistem yang Anda miliki atau diizinkan untuk diuji.${reset}"
+echo -e "${yellow}- Naivapt dibuat untuk tujuan edukasi dan pengujian keamanan pada sistem yang dimiliki atau memiliki izin eksplisit.${reset}"
+echo -e "${yellow}- Penggunaan alat ini terhadap sistem tanpa izin adalah ilegal dan melanggar hukum internasional dan nasional.${reset}"
+echo -e "${yellow}- Pengguna bertanggung jawab penuh atas segala konsekuensi hukum dan etis dari penggunaan alat ini.${reset}"
+echo -e "${yellow}- Kami sebagai pembuat tidak bertanggung jawab atas penyalahgunaan, kerusakan sistem, atau pelanggaran hukum apapun yang timbul dari penggunaan tools ini.${reset}"
+echo -e "${yellow}- Gunakan dengan bijak, etis, dan hanya untuk sistem yang Anda miliki atau diizinkan untuk diuji.${reset}"
 echo
 
 read -p "Ketik 1 untuk Lanjut ke Menu Utama: " lanjut
