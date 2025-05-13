@@ -54,3 +54,25 @@ naivapt
 
 Jika Anda ingin berkontribusi atau menambahkan fitur baru, silakan buka isu atau buat pull request.
 
+### Disclaimer
+
+NAIVAPT adalah alat yang dirancang untuk **keperluan pengujian keamanan** yang sah dan **pemeriksaan kerentanannya** pada sistem yang Anda miliki atau memiliki izin eksplisit dari pemiliknya. **Penggunaan alat ini untuk tujuan yang tidak sah dapat melanggar hukum yang berlaku.**
+
+Dengan menggunakan NAIVAPT, Anda setuju bahwa:
+1. Anda bertanggung jawab sepenuhnya atas penggunaan alat ini.
+2. Kami sebagai pengembang tidak bertanggung jawab atas **kerusakan, kehilangan data**, atau **konsekuensi hukum** yang timbul dari penggunaan alat ini.
+3. Alat ini tidak boleh digunakan untuk melakukan **serangan tidak sah**, **peretasan**, atau **eksploitasi** tanpa izin eksplisit dari pemilik sistem yang diuji.
+4. Harap mematuhi **hukum dan peraturan yang berlaku** di wilayah hukum Anda terkait pengujian penetrasi, pemindaian kerentanannya, dan eksploitasi.
+
+Jika Anda tidak memiliki izin eksplisit untuk menguji sistem atau aplikasi yang ingin Anda uji, **JANGAN gunakan alat ini**.
+
+Penggunaan alat ini sepenuhnya merupakan **risiko Anda sendiri**.
+
+**Kami mengutuk segala bentuk peretasan atau aktivitas yang melanggar hukum.** Alat ini hanya dimaksudkan untuk digunakan dalam pengujian dan pembelajaran yang sah.
+
+---
+
+**MIT License**
+
+NAIVAPT dilisensikan di bawah **MIT License**.
+
