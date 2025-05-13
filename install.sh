@@ -20,7 +20,7 @@ fi
 
 # Mengunduh repositori ini (bila perlu)
 echo -e "\n[+] Mengunduh repositori NAIVAPT..."
-git clone https://github.com/username/NAIVAPT.git
+git clone https://github.com/na2mikaze/NAIVAPT.git
 
 # Memberi izin eksekusi pada file script
 chmod +x NAIVAPT/naivapt.sh
