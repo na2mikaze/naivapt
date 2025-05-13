@@ -16,6 +16,41 @@ NAIVAPT adalah tool open-source yang dapat membantu melakukan **Reconnaissance**
 Clone repositori ini ke mesin Anda:
 
 ```bash
-git clone https://github.com/username/NAIVAPT.git
+git clone https://github.com/na2mikaze/NAIVAPT.git
 cd NAIVAPT
 ```
+
+#### 2. Instalasi
+
+Jalankan script instalasi:
+
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+#### 3. Menjalankan NAIVAPT
+
+Setelah instalasi selesai, Anda dapat menjalankan NAIVAPT dengan perintah berikut:
+
+```bash
+naivapt
+```
+
+### Pilihan Eksploitasi
+
+- Metasploit Framework
+- SQLMap (SQL Injection)
+- Hydra (Brute Force Login)
+- Burp Suite
+- XSSer (Cross Site Scripting)
+- Nikto (Web Vulnerability Scanner)
+- WPScan (WordPress Scan)
+- Commix (Command Injection)
+- Nmap Exploit Scripts
+- Searchsploit
+
+### Kontribusi
+
+Jika Anda ingin berkontribusi atau menambahkan fitur baru, silakan buka isu atau buat pull request.
+
