@@ -17,11 +17,11 @@ echo -e "${reset}"
 echo -e "${yellow}Naivapt - Automated VAPT Framework for Kali Linux${reset}"
 echo
 echo -e "${red}⚠️  DISCLAIMER:${reset}"
-echo -e "${yellow}- Naivapt dibuat untuk tujuan edukasi dan pengujian keamanan pada sistem yang dimiliki atau memiliki izin eksplisit.${reset}"
-echo -e "${yellow}- Penggunaan alat ini terhadap sistem tanpa izin adalah ilegal dan melanggar hukum internasional dan nasional.${reset}"
-echo -e "${yellow}- Pengguna bertanggung jawab penuh atas segala konsekuensi hukum dan etis dari penggunaan alat ini.${reset}"
-echo -e "${yellow}- Kami sebagai pembuat tidak bertanggung jawab atas penyalahgunaan, kerusakan sistem, atau pelanggaran hukum apapun yang timbul dari penggunaan tools ini.${reset}"
-echo -e "${yellow}- Gunakan dengan bijak, etis, dan hanya untuk sistem yang Anda miliki atau diizinkan untuk diuji.${reset}"
+echo -e "${yellow}Naivapt dibuat untuk tujuan edukasi dan pengujian keamanan pada sistem yang dimiliki atau memiliki izin eksplisit.${reset}"
+echo -e "${yellow}Penggunaan alat ini terhadap sistem tanpa izin adalah ilegal dan melanggar hukum internasional dan nasional.${reset}"
+echo -e "${yellow}Pengguna bertanggung jawab penuh atas segala konsekuensi hukum dan etis dari penggunaan alat ini.${reset}"
+echo -e "${yellow}Kami sebagai pembuat tidak bertanggung jawab atas penyalahgunaan, kerusakan sistem, atau pelanggaran hukum apapun yang timbul dari penggunaan tools ini.${reset}"
+echo -e "${yellow}Gunakan dengan bijak, etis, dan hanya untuk sistem yang Anda miliki atau diizinkan untuk diuji.${reset}"
 echo
 
 read -p "Ketik 1 untuk Lanjut ke Menu Utama: " lanjut
@@ -243,6 +243,7 @@ case $opsi in
         echo "h. Commix (Command Injection)"
         echo "i. Nmap Exploit Scripts"
         echo "j. Searchsploit"
+        echo "k. Panduan Penggunaan Tools (a-j)"
         read -p "Pilih opsi (a-j): " tool
         output="results/${target}_exploitation_$timestamp.txt"
 
@@ -320,6 +321,53 @@ case $opsi in
                 (searchsploit $exploit >> "$output") &
                 spinner $!
                 ;;
+
+            k)
+            echo -e "\n${cyan}=== Panduan Penggunaan Tools Exploitation ===${reset}"
+            echo -e "${yellow}[a] Metasploit Framework:${reset}"
+            echo "  Jalankan secara manual: msfconsole"
+            echo "  Contoh: search exploit apache"
+
+            echo -e "\n${yellow}[b] SQLMap:${reset}"
+            echo "  Tujuan: Melakukan SQL Injection pada URL target."
+            echo "  Contoh input: http://example.com/vuln.php?id=1"
+
+            echo -e "\n${yellow}[c] Hydra:${reset}"
+            echo "  Tujuan: Brute force login SSH atau service lainnya."
+            echo "  Contoh username: admin"
+            echo "  Contoh wordlist: /NAIVAPT/wordlists/list.txt"
+            echo "  Target: example.com (IP/domain yang punya SSH aktif)"
+
+            echo -e "\n${yellow}[d] Burp Suite:${reset}"
+            echo "  Jalankan secara manual dari GUI untuk intercept traffic web."
+            echo "  Cocok untuk eksplorasi login, form, XSS, dll."
+
+            echo -e "\n${yellow}[e] XSSer:${reset}"
+            echo "  Tujuan: Menemukan dan mengeksploitasi XSS (Cross Site Scripting)."
+            echo "  Contoh input URL: http://example.com/search.php?q=tes"
+
+            echo -e "\n${yellow}[f] Nikto:${reset}"
+            echo "  Tujuan: Scan web untuk kerentanan umum (file, header, config)."
+            echo "  Contoh target: http://example.com"
+
+            echo -e "\n${yellow}[g] WPScan:${reset}"
+            echo "  Tujuan: Scan situs WordPress untuk user, plugin, theme vulnerable."
+            echo "  Contoh target: http://example.com"
+            echo "  Token opsional dari: https://wpscan.com/profile/api"
+
+            echo -e "\n${yellow}[h] Commix:${reset}"
+            echo "  Tujuan: Mendeteksi dan mengeksploitasi command injection di URL."
+            echo "  Contoh input: http://example.com/vuln.php?input=123"
+
+            echo -e "\n${yellow}[i] Nmap Exploit Scripts:${reset}"
+            echo "  Tujuan: Scan port dan jalankan NSE (Nmap Scripting Engine)."
+            echo "  Contoh target: example.com atau 192.168.1.1"
+
+            echo -e "\n${yellow}[j] Searchsploit:${reset}"
+            echo "  Tujuan: Cari eksploit lokal berdasarkan nama aplikasi."
+            echo "  Contoh: apache 2.4.49"
+            echo "  Output: Daftar eksploit dari Exploit-DB yang relevan."
+            ;;
 
             *)
                 echo -e "${red}[!] Pilihan tidak valid.${reset}"
