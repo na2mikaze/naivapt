@@ -54,6 +54,10 @@ naivapt
 
 Jika Anda ingin berkontribusi atau menambahkan fitur baru, silakan buka isu atau buat pull request.
 
+## 📄 MIT License
+
+NAIVAPT dilisensikan di bawah **MIT License**.
+
 ## ⚠️ Disclaimer
 
 NAIVAPT adalah alat yang dirancang untuk **keperluan pengujian keamanan** yang sah dan **pemeriksaan kerentanannya** pada sistem yang Anda miliki atau memiliki izin eksplisit dari pemiliknya. **Penggunaan alat ini untuk tujuan yang tidak sah dapat melanggar hukum yang berlaku.**
@@ -72,7 +76,7 @@ Penggunaan alat ini sepenuhnya merupakan **risiko Anda sendiri**.
 
 ---
 
-** 📄 MIT License**
+## 👤 Pembuat
 
-NAIVAPT dilisensikan di bawah **MIT License**.
-
+Naimonitor dibuat oleh [Nana Namikaze]  
+GitHub: https://github.com/na2mikaze
