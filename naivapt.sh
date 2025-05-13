@@ -323,51 +323,51 @@ case $opsi in
                 ;;
 
             k)
-            echo -e "\n${cyan}=== Panduan Penggunaan Tools Exploitation ===${reset}"
-            echo -e "${yellow}[a] Metasploit Framework:${reset}"
-            echo "  Jalankan secara manual: msfconsole"
-            echo "  Contoh: search exploit apache"
+                echo -e "\n${cyan}=== Panduan Penggunaan Tools Exploitation ===${reset}"
+                echo -e "${yellow}[a] Metasploit Framework:${reset}"
+                echo "  Jalankan secara manual: msfconsole"
+                echo "  Contoh: search exploit apache"
 
-            echo -e "\n${yellow}[b] SQLMap:${reset}"
-            echo "  Tujuan: Melakukan SQL Injection pada URL target."
-            echo "  Contoh input: http://example.com/vuln.php?id=1"
+                echo -e "\n${yellow}[b] SQLMap:${reset}"
+                echo "  Tujuan: Melakukan SQL Injection pada URL target."
+                echo "  Contoh input: http://example.com/vuln.php?id=1"
 
-            echo -e "\n${yellow}[c] Hydra:${reset}"
-            echo "  Tujuan: Brute force login SSH atau service lainnya."
-            echo "  Contoh username: admin"
-            echo "  Contoh wordlist: /NAIVAPT/wordlists/list.txt"
-            echo "  Target: example.com (IP/domain yang punya SSH aktif)"
+                echo -e "\n${yellow}[c] Hydra:${reset}"
+                echo "  Tujuan: Brute force login SSH atau service lainnya."
+                echo "  Contoh username: admin"
+                echo "  Contoh wordlist: /NAIVAPT/wordlists/list.txt"
+                echo "  Target: example.com (IP/domain yang punya SSH aktif)"
 
-            echo -e "\n${yellow}[d] Burp Suite:${reset}"
-            echo "  Jalankan secara manual dari GUI untuk intercept traffic web."
-            echo "  Cocok untuk eksplorasi login, form, XSS, dll."
+                echo -e "\n${yellow}[d] Burp Suite:${reset}"
+                echo "  Jalankan secara manual dari GUI untuk intercept traffic web."
+                echo "  Cocok untuk eksplorasi login, form, XSS, dll."
 
-            echo -e "\n${yellow}[e] XSSer:${reset}"
-            echo "  Tujuan: Menemukan dan mengeksploitasi XSS (Cross Site Scripting)."
-            echo "  Contoh input URL: http://example.com/search.php?q=tes"
+                echo -e "\n${yellow}[e] XSSer:${reset}"
+                echo "  Tujuan: Menemukan dan mengeksploitasi XSS (Cross Site Scripting)."
+                echo "  Contoh input URL: http://example.com/search.php?q=tes"
 
-            echo -e "\n${yellow}[f] Nikto:${reset}"
-            echo "  Tujuan: Scan web untuk kerentanan umum (file, header, config)."
-            echo "  Contoh target: http://example.com"
+                echo -e "\n${yellow}[f] Nikto:${reset}"
+                echo "  Tujuan: Scan web untuk kerentanan umum (file, header, config)."
+                echo "  Contoh target: http://example.com"
 
-            echo -e "\n${yellow}[g] WPScan:${reset}"
-            echo "  Tujuan: Scan situs WordPress untuk user, plugin, theme vulnerable."
-            echo "  Contoh target: http://example.com"
-            echo "  Token opsional dari: https://wpscan.com/profile/api"
+                echo -e "\n${yellow}[g] WPScan:${reset}"
+                echo "  Tujuan: Scan situs WordPress untuk user, plugin, theme vulnerable."
+                echo "  Contoh target: http://example.com"
+                echo "  Token opsional dari: https://wpscan.com/profile/api"
 
-            echo -e "\n${yellow}[h] Commix:${reset}"
-            echo "  Tujuan: Mendeteksi dan mengeksploitasi command injection di URL."
-            echo "  Contoh input: http://example.com/vuln.php?input=123"
+                echo -e "\n${yellow}[h] Commix:${reset}"
+                echo "  Tujuan: Mendeteksi dan mengeksploitasi command injection di URL."
+                echo "  Contoh input: http://example.com/vuln.php?input=123"
 
-            echo -e "\n${yellow}[i] Nmap Exploit Scripts:${reset}"
-            echo "  Tujuan: Scan port dan jalankan NSE (Nmap Scripting Engine)."
-            echo "  Contoh target: example.com atau 192.168.1.1"
+                echo -e "\n${yellow}[i] Nmap Exploit Scripts:${reset}"
+                echo "  Tujuan: Scan port dan jalankan NSE (Nmap Scripting Engine)."
+                echo "  Contoh target: example.com atau 192.168.1.1"
 
-            echo -e "\n${yellow}[j] Searchsploit:${reset}"
-            echo "  Tujuan: Cari eksploit lokal berdasarkan nama aplikasi."
-            echo "  Contoh: apache 2.4.49"
-            echo "  Output: Daftar eksploit dari Exploit-DB yang relevan."
-            ;;
+                echo -e "\n${yellow}[j] Searchsploit:${reset}"
+                echo "  Tujuan: Cari eksploit lokal berdasarkan nama aplikasi."
+                echo "  Contoh: apache 2.4.49"
+                echo "  Output: Daftar eksploit dari Exploit-DB yang relevan."
+                ;;
 
             *)
                 echo -e "${red}[!] Pilihan tidak valid.${reset}"
