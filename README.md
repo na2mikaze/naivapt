@@ -1,15 +1,28 @@
-# NAIVAPT - Penetration Testing & Vulnerability Assessment Tool
+# 🛡️ NAIVAPT - Penetration Testing & Vulnerability Assessment Tool
 
 NAIVAPT adalah tool open-source yang dapat membantu melakukan **Reconnaissance**, **Scanning & Enumeration**, **Vulnerability Assessment**, dan **Exploitation (Penetration Testing)** secara otomatis dengan beberapa pilihan eksploitasi, serta menyimpan hasilnya dalam file untuk analisis lebih lanjut.
 
-### Fitur Utama
+### 🚀 Fitur Utama
 
 - **Reconnaissance**: Mengumpulkan informasi terkait WHOIS, DNS, Subdomain, dan banyak lagi.
 - **Scanning & Enumeration**: Memindai port terbuka, identifikasi sistem operasi, dan detail lainnya.
 - **Vulnerability Assessment**: Menggunakan Nmap untuk melakukan pemindaian kerentanannya.
 - **Exploitation**: Berbagai tools untuk melakukan eksploitasi, seperti SQLMap, Hydra, Metasploit, Burp Suite, XSSer, dan banyak lagi.
 
-### Cara Menggunakan
+### 📦 Pilihan Eksploitasi
+
+- Metasploit Framework
+- SQLMap (SQL Injection)
+- Hydra (Brute Force Login)
+- Burp Suite
+- XSSer (Cross Site Scripting)
+- Nikto (Web Vulnerability Scanner)
+- WPScan (WordPress Scan)
+- Commix (Command Injection)
+- Nmap Exploit Scripts
+- Searchsploit
+
+### 🔧 Cara Menggunakan
 
 #### 1. Clone Repositori ini
 
@@ -37,24 +50,11 @@ Setelah instalasi selesai, Anda dapat menjalankan NAIVAPT dengan perintah beriku
 naivapt
 ```
 
-### Pilihan Eksploitasi
-
-- Metasploit Framework
-- SQLMap (SQL Injection)
-- Hydra (Brute Force Login)
-- Burp Suite
-- XSSer (Cross Site Scripting)
-- Nikto (Web Vulnerability Scanner)
-- WPScan (WordPress Scan)
-- Commix (Command Injection)
-- Nmap Exploit Scripts
-- Searchsploit
-
-### Kontribusi
+### 🤝 Kontribusi
 
 Jika Anda ingin berkontribusi atau menambahkan fitur baru, silakan buka isu atau buat pull request.
 
-### Disclaimer
+### ⚠️ Disclaimer
 
 NAIVAPT adalah alat yang dirancang untuk **keperluan pengujian keamanan** yang sah dan **pemeriksaan kerentanannya** pada sistem yang Anda miliki atau memiliki izin eksplisit dari pemiliknya. **Penggunaan alat ini untuk tujuan yang tidak sah dapat melanggar hukum yang berlaku.**
 
@@ -72,7 +72,7 @@ Penggunaan alat ini sepenuhnya merupakan **risiko Anda sendiri**.
 
 ---
 
-**MIT License**
+** 📄 MIT License**
 
 NAIVAPT dilisensikan di bawah **MIT License**.
 
