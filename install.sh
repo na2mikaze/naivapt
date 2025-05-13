@@ -7,7 +7,7 @@ echo -e "\n[+] Menginstal dependensi yang diperlukan...\n"
 
 # Update dan install paket-paket yang dibutuhkan
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y whois dig sublist3r assetfinder amass curl xsser nikto wpscan commix nmap sqlmap hydra metasploit-framework searchsploit
+sudo apt install -y whois dig sublist3r assetfinder amass curl xsser nikto wpscan commix nmap sqlmap hydra metasploit-framework exploitdb searchsploit
 
 # Cek apakah git sudah terinstall, jika belum, install git
 if ! command -v git &> /dev/null
