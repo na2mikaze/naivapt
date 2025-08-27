@@ -78,5 +78,6 @@ Penggunaan alat ini sepenuhnya merupakan **risiko Anda sendiri**.
 
 ## 👤 Pembuat
 
-Naimonitor dibuat oleh [Nana Namikaze]  
+Naimonitor dibuat oleh [Nana I]  
 GitHub: https://github.com/na2mikaze
+
